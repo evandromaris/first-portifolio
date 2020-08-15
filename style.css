@@ -1,0 +1,87 @@
+body {
+    margin: 0; 
+    font-family: 'Montserrat', sans-serif;   
+}
+
+
+
+#header {
+    background-image: url(images/home2.jpg);
+    background-size: cover;
+    padding: 80px;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+#header a {
+    color: aliceblue;
+    font-size: 20px;
+}
+#header .list-inline a:hover{
+    color: #4682B4;
+
+}
+
+#header img{
+    border-radius: 50%;
+}
+
+#header h1{
+    color:white;
+    font-size: 50px;
+}
+
+#header p {
+    color: white;   
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#header h3{
+    font-size: 14px;
+    text-shadow: 2px 2px 7px black;
+    margin-top: 50px;
+}
+.card{
+    padding: 50px;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+
+}
+
+
+#project p {
+    
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#project .list-inline2 {
+    text-align: center;
+    display: inline;
+    
+}
+
+#footer{
+    padding: 20px;
+    background-color: #363636;
+    color: lightgray;
+    text-align: center;    
+}
+
+#footer a{
+    color: lightgrey;
+    font-size: 15px;
+}
+
+#footer a:hover{
+    color: white;
+    
+}
