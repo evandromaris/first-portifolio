@@ -1,13 +1,10 @@
-@media screen and (max-width: 1024px){
 
-}
 body {
+    padding: 0;
     margin: 0; 
-    font-family: 'Montserrat', sans-serif;   
+    font-family: 'Montserrat', sans-serif;  
+    position: relative; 
 }
-
-
-
 #header {
     background-image: url(images/home2.jpg);
     background-size: cover;
@@ -18,14 +15,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 #header a {
-    color: #ffffff	;
-    font-size: 30px;
+    color: aliceblue;
+    font-size: 20px;
 }
 #header .list-inline a:hover{
-    color: #D3D3D3;
+    color: #4682B4;
+
 }
-
-
 
 #header img{
     border-radius: 50%;
@@ -58,8 +54,6 @@ body {
     font-family: 'Montserrat', sans-serif;;
 
 }
-
-
 #project p {
     
     text-align: center;
@@ -72,7 +66,6 @@ body {
     display: inline;
     
 }
-
 #footer{
     padding: 20px;
     background-color: #363636;
