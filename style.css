@@ -1,3 +1,6 @@
+@media screen and (max-width: 1024px){
+
+}
 body {
     margin: 0; 
     font-family: 'Montserrat', sans-serif;   
@@ -15,13 +18,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 #header a {
-    color: aliceblue;
-    font-size: 20px;
+    color: #ffffff	;
+    font-size: 30px;
 }
 #header .list-inline a:hover{
-    color: #4682B4;
-
+    color: #D3D3D3;
 }
+
+
 
 #header img{
     border-radius: 50%;
