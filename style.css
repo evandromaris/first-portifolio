@@ -16,7 +16,7 @@ body {
 }
 #header a {
     color: aliceblue;
-    font-size: 20px;
+    font-size: 30px;
 }
 #header .list-inline a:hover{
     color: #4682B4;
