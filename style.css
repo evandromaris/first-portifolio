@@ -55,17 +55,63 @@ body {
 
 }
 #project p {
-    
+    text-decoration: underline;
     text-align: center;
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
 }
 
-#project .list-inline2 {
-    text-align: center;
-    display: inline;
+
+
+#project .container2{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+   margin: 0 auto;
+   padding: 0;
+   max-width: 1128px;
+ 
+}
+
+
+
+.container2 .project1, .project2, .project3{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;   
+    padding-left: 20px;    
+    align-items: center;
+}
+
+.container2 .project1{
+    background-image: url("images/LandingPageKhazix.png");
+    background-size: 100% 100%;
     
 }
+
+.container2 .project2{
+    background-image: url("images/TelaDeLogin.png");
+    background-size: 100% 100%;
+}
+
+.container2 .project3{
+    background-image: url("images/DataStorageFylo.png");
+    background-size: 100% 100%;
+}
+
+#project .container2 p{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-decoration:underline;
+    position: relative;
+    bottom: 5%;
+
+}
+
 #footer{
     padding: 20px;
     background-color: #363636;
